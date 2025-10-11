@@ -110,6 +110,46 @@ const projects = [
         tech: ['JavaScript', 'Cryptography', 'Randomization'],
         demoUrl: 'https://tysonsiruno.github.io/password-generator',
         githubUrl: 'https://github.com/tysonsiruno/password-generator'
+    },
+    {
+        title: 'Budget Planner',
+        category: 'finance',
+        description: 'Track income and expenses with visual insights. Set budgets per category, view pie charts and trends, export to CSV.',
+        tech: ['JavaScript', 'Canvas API', 'LocalStorage'],
+        demoUrl: 'https://tysonsiruno.github.io/budget-planner-expense-tracker',
+        githubUrl: 'https://github.com/tysonsiruno/budget-planner-expense-tracker'
+    },
+    {
+        title: 'Medical Symptom Tracker',
+        category: 'healthcare',
+        description: 'Track symptoms, medications, and appointments. Interactive body diagram, timeline view, and exportable medical reports.',
+        tech: ['JavaScript', 'SVG', 'Print CSS'],
+        demoUrl: 'https://tysonsiruno.github.io/medical-symptom-tracker',
+        githubUrl: 'https://github.com/tysonsiruno/medical-symptom-tracker'
+    },
+    {
+        title: 'Data Analysis Dashboard',
+        category: 'science',
+        description: 'Upload CSV files and generate charts with statistical analysis. Line, bar, scatter, pie, and histogram charts.',
+        tech: ['JavaScript', 'Canvas API', 'CSV Parser'],
+        demoUrl: 'https://tysonsiruno.github.io/data-analysis-dashboard',
+        githubUrl: 'https://github.com/tysonsiruno/data-analysis-dashboard'
+    },
+    {
+        title: 'Document Templates',
+        category: 'business',
+        description: 'Professional document generator with 6 templates. Create invoices, contracts, NDAs, and more with print-to-PDF.',
+        tech: ['JavaScript', 'Print CSS', 'LocalStorage'],
+        demoUrl: 'https://tysonsiruno.github.io/document-template-generator',
+        githubUrl: 'https://github.com/tysonsiruno/document-template-generator'
+    },
+    {
+        title: 'Workout Routine Builder',
+        category: 'fitness',
+        description: '55+ exercises with routine builder. Track sets, reps, and progress. Real-time timer with rest intervals.',
+        tech: ['JavaScript', 'Timer API', 'LocalStorage'],
+        demoUrl: 'https://tysonsiruno.github.io/workout-routine-builder',
+        githubUrl: 'https://github.com/tysonsiruno/workout-routine-builder'
     }
 ];
 
