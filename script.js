@@ -16,6 +16,15 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
 // Projects Data
 const projects = [
     {
+        title: 'Document Templates',
+        category: 'business',
+        description: '⭐ FEATURED: Professional document generator with 6 templates. Create invoices, contracts, NDAs, and more with print-to-PDF.',
+        tech: ['JavaScript', 'Print CSS', 'LocalStorage'],
+        demoUrl: 'https://tysonsiruno.github.io/document-template-generator',
+        githubUrl: 'https://github.com/tysonsiruno/document-template-generator',
+        featured: true
+    },
+    {
         title: 'Homework Organizer',
         category: 'productivity',
         description: 'Comprehensive assignment tracking tool with deadlines, priorities, and subject organization. Helps students stay organized and meet all their deadlines.',
@@ -134,14 +143,6 @@ const projects = [
         tech: ['JavaScript', 'Canvas API', 'CSV Parser'],
         demoUrl: 'https://tysonsiruno.github.io/data-analysis-dashboard',
         githubUrl: 'https://github.com/tysonsiruno/data-analysis-dashboard'
-    },
-    {
-        title: 'Document Templates',
-        category: 'business',
-        description: 'Professional document generator with 6 templates. Create invoices, contracts, NDAs, and more with print-to-PDF.',
-        tech: ['JavaScript', 'Print CSS', 'LocalStorage'],
-        demoUrl: 'https://tysonsiruno.github.io/document-template-generator',
-        githubUrl: 'https://github.com/tysonsiruno/document-template-generator'
     },
     {
         title: 'Workout Routine Builder',
