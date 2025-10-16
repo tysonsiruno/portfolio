@@ -1,6 +1,6 @@
 # Tyson Siruno | Developer Portfolio
 
-Professional portfolio website showcasing 48+ open-source projects.
+Professional portfolio website showcasing my open-source projects.
 
 **Live Site:** https://tysonsiruno.github.io/portfolio
 
