@@ -19,7 +19,7 @@ const projects = [
     {
         title: 'Snake Survival Game',
         category: 'creative',
-        description: 'Classic snake game with modern twist. Eat food, avoid walls, and beat your high score!',
+        description: 'An intense survival twist on classic snake - dodge apples, collect powerups, and survive as long as you can!',
         tech: ['JavaScript', 'Canvas API', 'Game Logic'],
         demoUrl: 'https://tysonsiruno.github.io/snake-survival-game',
         githubUrl: 'https://github.com/tysonsiruno/snake-survival-game',
@@ -28,73 +28,39 @@ const projects = [
     {
         title: 'Minesweeper Multiplayer',
         category: 'creative',
-        description: 'Classic minesweeper game with multiplayer support. Challenge your friends!',
-        tech: ['JavaScript', 'WebSockets', 'Game Logic'],
-        demoUrl: 'https://tysonsiruno.github.io/minesweeper-multiplayer',
+        description: 'Multiplayer Minesweeper game with Flask backend and Pygame client',
+        tech: ['Python', 'Flask', 'WebSockets'],
+        demoUrl: 'https://github.com/tysonsiruno/minesweeper-multiplayer',
         githubUrl: 'https://github.com/tysonsiruno/minesweeper-multiplayer',
         featured: true
     },
     {
         title: 'Sudoku Multiplayer',
         category: 'creative',
-        description: 'Play sudoku with friends in real-time. Multiple difficulty levels and daily challenges.',
-        tech: ['JavaScript', 'WebSockets', 'Algorithm'],
-        demoUrl: 'https://tysonsiruno.github.io/sudoku-multiplayer',
+        description: 'Real-time multiplayer Sudoku game with Flask backend and Socket.IO',
+        tech: ['Python', 'Flask', 'Socket.IO'],
+        demoUrl: 'https://github.com/tysonsiruno/sudoku-multiplayer',
         githubUrl: 'https://github.com/tysonsiruno/sudoku-multiplayer',
         featured: true
     },
 
     // PRODUCTIVITY & TOOLS
     {
-        title: 'WLED Manager Pro',
-        category: 'tools',
-        description: 'Advanced LED control interface for WLED devices. Create stunning light effects.',
-        tech: ['JavaScript', 'API Integration', 'UI/UX'],
-        demoUrl: 'https://tysonsiruno.github.io/wled-manager-pro',
-        githubUrl: 'https://github.com/tysonsiruno/wled-manager-pro'
-    },
-    {
-        title: 'Budget Planner',
-        category: 'finance',
-        description: 'Track income and expenses with visual insights. Set budgets, view charts.',
-        tech: ['JavaScript', 'Canvas API', 'LocalStorage'],
-        demoUrl: 'https://tysonsiruno.github.io/budget-planner-expense-tracker',
-        githubUrl: 'https://github.com/tysonsiruno/budget-planner-expense-tracker'
-    },
-    {
         title: 'Document Templates',
         category: 'business',
-        description: 'Professional document generator with 6 templates. Create invoices, contracts, NDAs, and more with print-to-PDF.',
+        description: 'Professional document generator for invoices, contracts, NDAs & more. Fill-in-the-blank editor with print-to-PDF.',
         tech: ['JavaScript', 'Print CSS', 'LocalStorage'],
         demoUrl: 'https://tysonsiruno.github.io/document-template-generator',
-        githubUrl: 'https://github.com/tysonsiruno/document-template-generator'
+        githubUrl: 'https://github.com/tysonsiruno/document-template-generator',
+        featured: true
     },
     {
         title: 'Portfolio',
         category: 'business',
-        description: 'Personal portfolio website showcasing projects and skills. Built with modern web technologies.',
+        description: 'Personal portfolio showcasing my free tools and projects',
         tech: ['HTML5', 'CSS3', 'JavaScript'],
         demoUrl: 'https://tysonsiruno.github.io/portfolio',
         githubUrl: 'https://github.com/tysonsiruno/portfolio'
-    },
-    {
-        title: 'Workout Routine Builder',
-        category: 'fitness',
-        description: '55+ exercises with routine builder. Track sets, reps, and progress.',
-        tech: ['JavaScript', 'Timer API', 'LocalStorage'],
-        demoUrl: 'https://tysonsiruno.github.io/workout-routine-builder',
-        githubUrl: 'https://github.com/tysonsiruno/workout-routine-builder'
-    },
-
-    // FEATURED PROJECT - FIREFLY DEMO (private repo not shown)
-    {
-        title: 'Firefly Demo',
-        category: 'business',
-        description: '⭐ FEATURED: Advanced demo application showcasing modern web development practices.',
-        tech: ['React', 'TypeScript', 'Tailwind CSS'],
-        demoUrl: 'https://tysonsiruno.github.io/firefly-demo',
-        githubUrl: 'https://github.com/tysonsiruno/firefly-demo',
-        featured: true
     }
 ];
 
