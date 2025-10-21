@@ -15,6 +15,17 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
 
 // Projects Data
 const projects = [
+    // PRODUCTIVITY & TOOLS
+    {
+        title: 'Document Analyzer 3000',
+        category: 'business',
+        description: 'Production-ready intelligent document processing system with OCR. Processes PDFs, images, and text files with 95%+ accuracy.',
+        tech: ['N8N', 'PostgreSQL', 'OCR.space', 'AI Classification'],
+        demoUrl: 'https://github.com/tysonsiruno/document-analyzer',
+        githubUrl: 'https://github.com/tysonsiruno/document-analyzer',
+        featured: true
+    },
+
     // GAMES & INTERACTIVE
     {
         title: 'Snake Survival Game',
