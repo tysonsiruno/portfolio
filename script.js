@@ -54,24 +54,6 @@ const projects = [
         githubUrl: 'https://github.com/tysonsiruno/minesweeper-multiplayer',
         featured: true
     },
-    {
-        title: 'Sudoku Multiplayer',
-        category: 'games',
-        description: 'Competitive multiplayer Sudoku game with real-time sync and Flask backend',
-        tech: ['Python', 'Flask', 'Socket.IO', 'JavaScript', 'PostgreSQL'],
-        demoUrl: 'https://github.com/tysonsiruno/sudoku-multiplayer',
-        githubUrl: 'https://github.com/tysonsiruno/sudoku-multiplayer',
-        featured: true
-    },
-    {
-        title: 'Snake Survival Game',
-        category: 'games',
-        description: 'An intense survival twist on classic snake - dodge apples, collect powerups, and survive as long as you can!',
-        tech: ['JavaScript', 'Canvas API', 'HTML5', 'Game Logic'],
-        demoUrl: 'https://tysonsiruno.github.io/snake-survival-game',
-        githubUrl: 'https://github.com/tysonsiruno/snake-survival-game',
-        featured: true
-    },
 
     // PRODUCTIVITY & TOOLS
     {
@@ -90,15 +72,6 @@ const projects = [
         tech: ['JavaScript', 'CSS3', 'HTML5'],
         demoUrl: 'https://github.com/tysonsiruno/firefly-demo',
         githubUrl: 'https://github.com/tysonsiruno/firefly-demo',
-        featured: false
-    },
-    {
-        title: 'Portfolio',
-        category: 'tools',
-        description: 'Personal portfolio showcasing my free tools and projects with modern design',
-        tech: ['HTML5', 'CSS3', 'JavaScript'],
-        demoUrl: 'https://tysonsiruno.github.io/portfolio',
-        githubUrl: 'https://github.com/tysonsiruno/portfolio',
         featured: false
     }
 ];
