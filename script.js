@@ -17,24 +17,6 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
 const projects = [
     // AI & DATA
     {
-        title: 'AI News Pipeline',
-        category: 'ai',
-        description: 'Automated AI news aggregation and processing pipeline with PostgreSQL backend for data management',
-        tech: ['PLpgSQL', 'Shell', 'PostgreSQL', 'Data Pipeline'],
-        demoUrl: 'https://github.com/tysonsiruno/ai-news-pipeline',
-        githubUrl: 'https://github.com/tysonsiruno/ai-news-pipeline',
-        featured: true
-    },
-    {
-        title: 'DocFlow AI',
-        category: 'ai',
-        description: 'AI-powered document processing and workflow automation with TypeScript and Python',
-        tech: ['Python', 'TypeScript', 'AI/ML', 'Document Processing'],
-        demoUrl: 'https://github.com/tysonsiruno/docflow-ai',
-        githubUrl: 'https://github.com/tysonsiruno/docflow-ai',
-        featured: true
-    },
-    {
         title: 'Document Analyzer',
         category: 'ai',
         description: 'Intelligent document analysis tool with PostgreSQL database integration',
@@ -64,15 +46,6 @@ const projects = [
         demoUrl: 'https://tysonsiruno.github.io/document-template-generator',
         githubUrl: 'https://github.com/tysonsiruno/document-template-generator',
         featured: true
-    },
-    {
-        title: 'Firefly Demo',
-        category: 'tools',
-        description: 'Interactive demo application showcasing modern web development techniques',
-        tech: ['JavaScript', 'CSS3', 'HTML5'],
-        demoUrl: 'https://github.com/tysonsiruno/firefly-demo',
-        githubUrl: 'https://github.com/tysonsiruno/firefly-demo',
-        featured: false
     }
 ];
 
