@@ -15,63 +15,91 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
 
 // Projects Data
 const projects = [
-    // PRODUCTIVITY & TOOLS
+    // AI & DATA
     {
-        title: 'Document Analyzer 3000',
-        category: 'business',
-        description: 'Production-ready intelligent document processing system with OCR. Processes PDFs, images, and text files with 95%+ accuracy.',
-        tech: ['N8N', 'PostgreSQL', 'OCR.space', 'AI Classification'],
+        title: 'AI News Pipeline',
+        category: 'ai',
+        description: 'Automated AI news aggregation and processing pipeline with PostgreSQL backend for data management',
+        tech: ['PLpgSQL', 'Shell', 'PostgreSQL', 'Data Pipeline'],
+        demoUrl: 'https://github.com/tysonsiruno/ai-news-pipeline',
+        githubUrl: 'https://github.com/tysonsiruno/ai-news-pipeline',
+        featured: true
+    },
+    {
+        title: 'DocFlow AI',
+        category: 'ai',
+        description: 'AI-powered document processing and workflow automation with TypeScript and Python',
+        tech: ['Python', 'TypeScript', 'AI/ML', 'Document Processing'],
+        demoUrl: 'https://github.com/tysonsiruno/docflow-ai',
+        githubUrl: 'https://github.com/tysonsiruno/docflow-ai',
+        featured: true
+    },
+    {
+        title: 'Document Analyzer',
+        category: 'ai',
+        description: 'Intelligent document analysis tool with PostgreSQL database integration',
+        tech: ['Shell', 'PLpgSQL', 'PostgreSQL', 'Analysis'],
         demoUrl: 'https://github.com/tysonsiruno/document-analyzer',
         githubUrl: 'https://github.com/tysonsiruno/document-analyzer',
-        featured: true
+        featured: false
     },
 
     // GAMES & INTERACTIVE
     {
-        title: 'Snake Survival Game',
-        category: 'creative',
-        description: 'An intense survival twist on classic snake - dodge apples, collect powerups, and survive as long as you can!',
-        tech: ['JavaScript', 'Canvas API', 'Game Logic'],
-        demoUrl: 'https://tysonsiruno.github.io/snake-survival-game',
-        githubUrl: 'https://github.com/tysonsiruno/snake-survival-game',
-        featured: true
-    },
-    {
         title: 'Minesweeper Multiplayer',
-        category: 'creative',
-        description: 'Multiplayer Minesweeper game with Flask backend and Pygame client',
-        tech: ['Python', 'Flask', 'WebSockets'],
+        category: 'games',
+        description: 'Real-time multiplayer Minesweeper with Flask backend, WebSockets, and comprehensive game logic',
+        tech: ['Python', 'Flask', 'WebSockets', 'Pygame', 'PostgreSQL'],
         demoUrl: 'https://github.com/tysonsiruno/minesweeper-multiplayer',
         githubUrl: 'https://github.com/tysonsiruno/minesweeper-multiplayer',
         featured: true
     },
     {
         title: 'Sudoku Multiplayer',
-        category: 'creative',
-        description: 'Real-time multiplayer Sudoku game with Flask backend and Socket.IO',
-        tech: ['Python', 'Flask', 'Socket.IO'],
+        category: 'games',
+        description: 'Competitive multiplayer Sudoku game with real-time sync and Flask backend',
+        tech: ['Python', 'Flask', 'Socket.IO', 'JavaScript', 'PostgreSQL'],
         demoUrl: 'https://github.com/tysonsiruno/sudoku-multiplayer',
         githubUrl: 'https://github.com/tysonsiruno/sudoku-multiplayer',
+        featured: true
+    },
+    {
+        title: 'Snake Survival Game',
+        category: 'games',
+        description: 'An intense survival twist on classic snake - dodge apples, collect powerups, and survive as long as you can!',
+        tech: ['JavaScript', 'Canvas API', 'HTML5', 'Game Logic'],
+        demoUrl: 'https://tysonsiruno.github.io/snake-survival-game',
+        githubUrl: 'https://github.com/tysonsiruno/snake-survival-game',
         featured: true
     },
 
     // PRODUCTIVITY & TOOLS
     {
         title: 'Document Templates',
-        category: 'business',
+        category: 'tools',
         description: 'Professional document generator for invoices, contracts, NDAs & more. Fill-in-the-blank editor with print-to-PDF.',
-        tech: ['JavaScript', 'Print CSS', 'LocalStorage'],
+        tech: ['JavaScript', 'Print CSS', 'LocalStorage', 'HTML5'],
         demoUrl: 'https://tysonsiruno.github.io/document-template-generator',
         githubUrl: 'https://github.com/tysonsiruno/document-template-generator',
         featured: true
     },
     {
+        title: 'Firefly Demo',
+        category: 'tools',
+        description: 'Interactive demo application showcasing modern web development techniques',
+        tech: ['JavaScript', 'CSS3', 'HTML5'],
+        demoUrl: 'https://github.com/tysonsiruno/firefly-demo',
+        githubUrl: 'https://github.com/tysonsiruno/firefly-demo',
+        featured: false
+    },
+    {
         title: 'Portfolio',
-        category: 'business',
-        description: 'Personal portfolio showcasing my free tools and projects',
+        category: 'tools',
+        description: 'Personal portfolio showcasing my free tools and projects with modern design',
         tech: ['HTML5', 'CSS3', 'JavaScript'],
         demoUrl: 'https://tysonsiruno.github.io/portfolio',
-        githubUrl: 'https://github.com/tysonsiruno/portfolio'
+        githubUrl: 'https://github.com/tysonsiruno/portfolio',
+        featured: false
     }
 ];
 
